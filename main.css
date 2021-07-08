@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.home-body{
+    background: rgb(236, 224, 224);   
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: 1px solid rgb(15, 14, 12);
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: rgb(243, 93, 93);
+    color: black;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 27%;
+    left: 14%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    transition: 0.5s ease;
+}
+
+.btn{
+    border: 1px solid rgb(0, 66, 99);
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.name{
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    transform: translate(-50%,-50%);
+    font-size: 23px;
+}
+
+.name h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(12, 4, 80);
+}
+.name h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 6, 10);
+}
+
+#abt{
+    position: absolute;
+    top: 58%;
+    left: 12.7%;
+    transform: translate(-50%,-50%);
+    font-size: 32px;   
+}
+
+.about{
+    position: absolute;
+    top: 72%;
+    left: 29%;
+    transform: translate(-50%,-50%);
+}
+.about p{
+    font-size: larger;
+}
+
+.pic img{
+    position: absolute;
+    top: 26%;
+    left: 66%;
+    width: 230px;
+    height: auto;    
+}
+.edu-head{
+    position: absolute;
+    top: 17%;
+    left: 14%;
+    transform: translate(-50%,-50%);
+}
+
+.edu-table td{
+    border: 1px solid #161515;
+    padding: 4px 8px;
+    color: rgb(20, 20, 18);
+}
+
+.edu-table th{
+    background-color: rgb(228, 76, 76);    
+}
+
+.edu-table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 760px;
+    height: 90px;
+}
+
+#langhead{
+    position: absolute;
+    top: 75%;
+    left: 23%;
+    color: rgb(0, 8, 116);
+    transform: translate(-50%,-50%);
+    font-size: 27px;      
+}
+
+.langs{
+    position: absolute;
+    top: 82.5%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+}
+#certhead{
+    position: absolute;
+    top: 54%;
+    left: 23%;
+    color: rgb(0, 8, 116);
+    transform: translate(-50%,-50%);
+    font-size: 27px;      
+}
+.certs{
+    position: absolute;
+    top: 64.4%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+}
+#codehead{
+    position: absolute;
+    top: 37%;
+    left: 21%;
+    color: rgb(0, 8, 116);
+    transform: translate(-50%,-50%);
+    font-size: 27px;      
+}
+.codes{
+    position: absolute;
+    top: 43%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.ph-mail{
+    position: absolute;
+    top: 28%;
+    left: 23%;
+    color: rgb(0, 8, 116);
+    transform: translate(-50%,-50%);
+    font-size: 27px;      
+}
+#sendhead{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 8, 116);
+    transform: translate(-50%,-50%);
+    font-size: 33px; 
+}
+
+.frm{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: rgb(0, 0, 3);
+    transform: translate(-50%,-50%);
+    font-size: 20px; 
+}
+#subject{
+    border: 2px solid black;;
+}
+#sub{
+    position: absolute;
+    top: 84%;
+    left: 47.5%;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 10px;
+    font-size:medium;
+    background-color: rgb(230, 79, 79);
+}
